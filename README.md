@@ -2,7 +2,7 @@
 
 Weather App using React (Desktop Mode only)
 
-Technologies used: React, useState(), useEffect(), Tailwind, etc 
+Technologies used: React, useState(), useEffect(), Tailwind, One Call API (Open Weather Org), etc 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
