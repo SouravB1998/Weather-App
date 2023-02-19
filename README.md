@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-##Weather App using React (Desktop Mode only)
+Weather App using React (Desktop Mode only)
+
 Technologies used: React, useState(), useEffect(), Tailwind, etc 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
