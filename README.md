@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Weather App using React (Desktop Mode only)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
