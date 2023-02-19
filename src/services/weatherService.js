@@ -1,6 +1,6 @@
 import { DateTime } from "luxon";
 
-const API_KEY = "af2a9c0178a99a6c7577bdb57039d94c";
+const API_KEY = ; // Use your One Call weather API Key here
 const BASE_URL = "https://api.openweathermap.org/data/2.5";
 
 // https://api.openweathermap.org/data/3.0/onecall/timemachine?lat={lat}&lon={lon}&dt={time}&appid={API key}
@@ -86,9 +86,6 @@ const formatToLocalTime = (
   zone,
   format = "cccc, dd LLL yyyy' | Local time: 'hh:mm a"
 ) => DateTime.fromSeconds(secs).setZone(zone).toFormat(format);
-
-// const weatherIconURL = (icon) =>
-//   `http://openweathermap.org/img/wn/${icon}@2x.png`;
 
 const iconUrlFromCode = (code) =>
   `http://openweathermap.org/img/wn/${code}@2x.png`;
